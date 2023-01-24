@@ -1,1 +1,46 @@
+.header
+{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background-color: #1f2937;
+    color: aliceblue;
+}
 
+.header-left
+{
+    /* flex: auto; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 40vw;    
+    border: 1px solid red;
+    /* font-weight: 700; */
+    gap: 64px;
+}
+
+.header-left-bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.header-left-bottom h1
+{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.header-left-bottom button
+{
+    width: 9vw;
+    height: 3vh;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: antiquewhite;
+    border: 0px;
+
+}
