@@ -85,20 +85,37 @@
     /* border: 1px solid red; */
 }
 
-/* .body-image-text
+
+.body01
 {
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    align-items: center;
+    gap: 64px;
+    height: 80vh;
+    border: 1px solid red;
+
 
 }
 
-.body-image
+.body01-bottom
 {
-    flex-shrink: 0 ;
+    display: flex;
+    gap: 32px;
+    
+}
+
+.body01-image-text
+{
+    height: auto;
     width: 15vw;
-    height: 25vh;
-    border: 1px solid red;
+}
 
-} */
+.body01-image-text img
+{
+    height: auto;
+    width: 15vw;
+    border: 5px solid #3882f6;
+    border-radius: 6px;
 
+}
