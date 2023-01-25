@@ -85,3 +85,20 @@
     /* border: 1px solid red; */
 }
 
+/* .body-image-text
+{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+
+}
+
+.body-image
+{
+    flex-shrink: 0 ;
+    width: 15vw;
+    height: 25vh;
+    border: 1px solid red;
+
+} */
+
